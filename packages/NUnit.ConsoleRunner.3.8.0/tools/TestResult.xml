@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\googlesearch\bin\Debug\googlesearch.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-03-18" time="16:05:41">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\packages\NUnit.ConsoleRunner.3.8.0\tools" machine-name="HP-PC" user="HP" user-domain="HP-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\googlesearch\bin\Debug\googlesearch.dll" executed="True" result="Failure" success="False" time="18.369" asserts="0">
+    <properties>
+      <property name="_PID" value="5384" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+      <stack-trace />
+    </failure>
+    <results>
+      <test-suite type="TestSuite" name="googlesearch" executed="True" result="Failure" success="False" time="18.326" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+          <stack-trace />
+        </failure>
+        <results>
+          <test-suite type="TestSuite" name="Features" executed="True" result="Failure" success="False" time="18.325" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+              <stack-trace />
+            </failure>
+            <results>
+              <test-suite type="TestFixture" name="GooglesearchFeature" description="googlesearch" executed="True" result="Failure" success="False" time="18.316" asserts="0">
+                <properties>
+                  <property name="Description" value="googlesearch" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                  <stack-trace />
+                </failure>
+                <results>
+                  <test-case name="googlesearch.Features.GooglesearchFeature.GoogleSearchForTownsuite" description="google search for townsuite" executed="True" result="Error" success="False" time="17.497" asserts="0">
+                    <properties>
+                      <property name="Description" value="google search for townsuite" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : 'OpenQA.Selenium.IWebDriver' does not contain a definition for 'FindElement']]></message>
+                      <stack-trace><![CDATA[   at CallSite.Target(Closure , CallSite , IWebDriver , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at googlesearch.Steps.StepDefinition1.ThenIShouldSeeAResultOfTheKeyWord(Table table) in C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\googlesearch\Steps\StepDefinition1.cs:line 59
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at googlesearch.Features.GooglesearchFeature.ScenarioCleanup()
+   at googlesearch.Features.GooglesearchFeature.GoogleSearchForTownsuite() in C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\googlesearch\Features\googlesearch.feature:line 13]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

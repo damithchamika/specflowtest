@@ -1,0 +1,16 @@
+﻿Attempting to gather dependency information for package 'Selenium.Firefox.WebDriver.0.19.0' with respect to project 'googlesearch', targeting '.NETFramework,Version=v4.5.2'
+Attempting to resolve dependencies for package 'Selenium.Firefox.WebDriver.0.19.0' with DependencyBehavior 'Lowest'
+Resolving actions to install package 'Selenium.Firefox.WebDriver.0.19.0'
+Resolved actions to install package 'Selenium.Firefox.WebDriver.0.19.0'
+Removed package 'Selenium.Firefox.WebDriver.0.19.1' from 'packages.config'
+Successfully uninstalled 'Selenium.Firefox.WebDriver.0.19.1' from googlesearch
+  GET https://api.nuget.org/v3-flatcontainer/selenium.firefox.webdriver/0.19.0/selenium.firefox.webdriver.0.19.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/selenium.firefox.webdriver/0.19.0/selenium.firefox.webdriver.0.19.0.nupkg 1149ms
+Installing Selenium.Firefox.WebDriver 0.19.0.
+Adding package 'Selenium.Firefox.WebDriver.0.19.0' to folder 'C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\packages'
+Added package 'Selenium.Firefox.WebDriver.0.19.0' to folder 'C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\packages'
+Added package 'Selenium.Firefox.WebDriver.0.19.0' to 'packages.config'
+Successfully installed 'Selenium.Firefox.WebDriver 0.19.0' to googlesearch
+Removing package 'Selenium.Firefox.WebDriver.0.19.1' from folder 'C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\packages'
+Removed package 'Selenium.Firefox.WebDriver.0.19.1' from folder 'C:\Users\HP\Documents\Visual Studio 2015\Projects\googlesearch\packages'
+========== Finished ==========

@@ -1,0 +1,18 @@
+=> googlesearch.Features.GooglesearchFeature.GoogleSearchForTownsuite
+Given I have navigate to google page
+-> done: StepDefinition1.GivenIHaveNavigateToGooglePage() (15.5s)
+And I see the google page fully loaded
+Page is fully loaded
+-> done: StepDefinition1.GivenISeeTheGooglePageFullyLoaded() (0.1s)
+When I type key word as
+  --- table step argument ---
+  | Keyword   |
+  | Townsuite |
+-> done: StepDefinition1.WhenITypeKeyWordAs(<table>) (1.3s)
+Then i should see a result of the key word
+  --- table step argument ---
+  | Keyword   |
+  | Townsuite |
+-> error: 'OpenQA.Selenium.IWebDriver' does not contain a definition for 'FindElement'
+=> googlesearch.Features.GooglesearchFeature
+-> Using app.config
