@@ -9,21 +9,27 @@ using OpenQA.Selenium.Firefox;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Chrome;
 
 namespace googlesearch.Steps
 {
+
     [Binding]
     public sealed class StepDefinition1
     {
         public IWebDriver driver;
-        public FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"D:\"); // location of the geckdriver.exe file
+
+
+
+      //  public FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"D:\"); // location of the geckdriver.exe file
 
         
         [Given(@"I have navigate to google page")]
         public void GivenIHaveNavigateToGooglePage()
         {
+            driver = new ChromeDriver();
 
-            driver = new FirefoxDriver(service);
+            //driver = new FirefoxDriver(service);
             driver.Url = "http://www.google.com";
         }
 
